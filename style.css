@@ -207,8 +207,8 @@
 	background: var(--soft-cyan);
 }
 
-.bg-light-blue {
-	background: var(--light-blue);
+.soft-bg-light-blue {
+	background: var(--soft-light-blue);
 }
 
 .soft-bg-blue {
@@ -973,3 +973,87 @@ p.ml-lg-1 {
 	padding-left: var(--lg-3);
 	padding-right: var(--lg-3);
 }
+
+.border-cool-gray {
+	border: 1px solid var(--soft-cool-gray);
+}
+
+.border-gray {
+	border: 1px solid var(--soft-gray);
+}
+
+.border-true-gray {
+	border: 1px solid var(--soft-true-gray);
+}
+
+.border-warm-gray {
+	border: 1px solid var(--soft-warm-gray);
+}
+
+.border-red {
+	border: 1px solid var(--soft-red);
+}
+
+.border-orange {
+	border: 1px solid var(--soft-orange);
+}
+
+.border-amber {
+	border: 1px solid var(--soft-amber);
+}
+
+.border-yellow {
+	border: 1px solid var(--soft-yellow);
+}
+
+.border-lime {
+	border: 1px solid var(--soft-lime);
+}
+
+.border-green {
+	border: 1px solid var(--soft-green);
+}
+
+.border-emarald {
+	border: 1px solid var(--soft-emarald);
+}
+
+.border-teal {
+	border: 1px solid var(--soft-teal);
+}
+
+.border-cyan {
+	border: 1px solid var(--soft-cyan);
+}
+
+.border-light-blue {
+	border: 1px solid var(--soft-light-blue);
+}
+
+.border-blue {
+	border: 1px solid var(--soft-blue);
+}
+
+.border-indigo {
+	border: 1px solid var(--soft-indigo);
+}
+
+.border-violet {
+	border: 1px solid var(--soft-violet);
+}
+
+.border-fuchsia {
+	border: 1px solid var(--soft-fuchsia);
+}
+
+.border-pink {
+	border: 1px solid var(--soft-pink);
+}
+
+.border-rose {
+	border: 1px solid var(--soft-rose);
+}
+
+/* TODO */
+/* flexbox */
+/* grid */
