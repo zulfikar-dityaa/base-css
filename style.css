@@ -41,6 +41,9 @@
 	--soft-pink: rgba(236, 72, 153, 0.1);
 	--rose: #f43f5e;
 	--soft-rose: rgba(244, 63, 94, 0.1);
+	--blue-dark: #010615;
+	--soft-blue-dark: #0106151f;
+	--black: #171717;
 	--sm-1: 0.25rem;
 	--sm-2: 0.5rem;
 	--sm-3: 0.75rem;
@@ -155,6 +158,14 @@
 	background: white;
 }
 
+.bg-blue-dark {
+	background: var(--blue-dark);
+}
+
+.bg-black {
+	background: var(--black);
+}
+
 .soft-bg-cool-gray {
 	background: var(--soft-cool-gray);
 }
@@ -233,6 +244,10 @@
 
 .soft-bg-rose {
 	background: var(--soft-rose);
+}
+
+.soft-bg-blue-dark {
+	background: var(--soft-blue-dark);
 }
 
 .text-cool-gray {
@@ -319,6 +334,14 @@
 	color: white;
 }
 
+.text-blue-dark {
+	color: var(--blue-dark);
+}
+
+.text-black {
+	color: var(--black);
+}
+
 .text-soft-cool-gray {
 	color: var(--soft-cool-gray);
 }
@@ -397,6 +420,14 @@
 
 .text-soft-rose {
 	color: var(--soft-rose);
+}
+
+.text-soft-blue-dark {
+	color: var(--soft-blue-dark);
+}
+
+.text-black {
+	color: var(--black);
 }
 
 .rounded-sm-1 {
@@ -1054,6 +1085,20 @@ p.ml-lg-1 {
 	border: 1px solid var(--soft-rose);
 }
 
+.border-dark-blue {
+	border: 1px solid var(--blue-dark);
+}
+
+.border-white {
+	border: 1px solid #fff;
+}
+
+.border-black {
+	border: 1px solid var(--black);
+}
+
 /* TODO */
 /* flexbox */
 /* grid */
+/* border position */
+/* btn */
