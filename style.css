@@ -101,6 +101,11 @@
 	background-color: var(--secondary) !important;
 }
 
+.bg-blue-gray {
+	background-color: var(--blue-gray) !important;
+	color: white;
+}
+
 .bg-cool-gray {
 	background-color: var(--cool-gray) !important;
 	color: white;
@@ -168,6 +173,7 @@
 
 .bg-light-blue {
 	background-color: var(--light-blue) !important;
+	color: white;
 }
 
 .bg-blue {
@@ -206,10 +212,12 @@
 
 .bg-blue-dark {
 	background-color: var(--blue-dark) !important;
+	color: white;
 }
 
 .bg-black {
 	background-color: var(--black) !important;
+	color: white;
 }
 
 .soft-bg-cool-gray {
