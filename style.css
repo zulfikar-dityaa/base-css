@@ -1,14 +1,14 @@
 :root {
 	--blue-gray: #64748b;
-	--soft-blue-gray: rgba(100, 116, 139, 0.1);
+	--soft-blue-gray: rgba(100, 116, 139, 0.2);
 	--cool-gray: #6b7180;
-	--soft-cool-gray: rgba(107, 113, 128, 0.1);
+	--soft-cool-gray: rgba(107, 113, 128, 0.2);
 	--gray: #71717a;
-	--soft-gray: rgba(113, 113, 122, 0.1);
+	--soft-gray: rgba(113, 113, 122, 0.2);
 	--true-gray: #737373;
-	--soft-true-gray: rgba(115, 115, 115, 0.1);
+	--soft-true-gray: rgba(115, 115, 115, 0.2);
 	--warm-gray: #78716c;
-	--soft-warm-gray: rgba(120, 113, 108, 0.1);
+	--soft-warm-gray: rgba(120, 113, 108, 0.2);
 	--red: #ef4444;
 	--soft-red: rgba(239, 68, 68, 0.2);
 	--orange: #f97316;
@@ -42,7 +42,7 @@
 	--rose: #f43f5e;
 	--soft-rose: rgba(244, 63, 94, 0.2);
 	--blue-dark: #010615;
-	--soft-blue-dark: #0106151f;
+	--soft-blue-dark: #01061538;
 	--black: #171717;
 	--primary: #3b82f6;
 	--danger: #ef4444;
@@ -371,6 +371,10 @@
 	color: var(--secondary) !important;
 }
 
+.text-blue-gray {
+	color: var(--blue-gray) !important;
+}
+
 .text-cool-gray {
 	color: var(--cool-gray) !important;
 }
@@ -461,6 +465,10 @@
 
 .text-black {
 	color: var(--black) !important;
+}
+
+.text-soft-blue-gray {
+	color: var(--soft-blue-gray) !important;
 }
 
 .text-soft-cool-gray {
