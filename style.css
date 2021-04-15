@@ -10,37 +10,37 @@
 	--warm-gray: #78716c;
 	--soft-warm-gray: rgba(120, 113, 108, 0.1);
 	--red: #ef4444;
-	--soft-red: rgba(239, 68, 68, 0.1);
+	--soft-red: rgba(239, 68, 68, 0.2);
 	--orange: #f97316;
-	--soft-orange: rgba(249, 115, 22, 0.1);
+	--soft-orange: rgba(249, 115, 22, 0.2);
 	--amber: #f59e0b;
-	--soft-amber: rgba(245, 158, 11, 0.1);
+	--soft-amber: rgba(245, 158, 11, 0.2);
 	--yellow: #eab308;
-	--soft-yellow: rgba(234, 179, 8, 0.1);
+	--soft-yellow: rgba(234, 179, 8, 0.2);
 	--lime: #84cc16;
-	--soft-lime: rgba(132, 204, 22, 0.1);
+	--soft-lime: rgba(132, 204, 22, 0.2);
 	--green: #22c55e;
-	--soft-green: rgba(34, 197, 94, 0.1);
+	--soft-green: rgba(34, 197, 94, 0.2);
 	--emarald: #10b981;
-	--soft-emarald: rgba(16, 185, 129, 0.1);
+	--soft-emarald: rgba(16, 185, 129, 0.2);
 	--teal: #14b8a6;
-	--soft-teal: rgba(20, 184, 166, 0.1);
+	--soft-teal: rgba(20, 184, 166, 0.2);
 	--cyan: #06b6d4;
-	--soft-cyan: rgba(6, 182, 212, 0.1);
+	--soft-cyan: rgba(6, 182, 212, 0.2);
 	--light-blue: #0ea5e9;
-	--soft-light-blue: rgba(14, 165, 233, 0.1);
+	--soft-light-blue: rgba(14, 165, 233, 0.2);
 	--blue: #3b82f6;
-	--soft-blue: rgba(59, 130, 246, 0.1);
+	--soft-blue: rgba(59, 130, 246, 0.2);
 	--indigo: #6366f1;
-	--soft-indigo: rgba(99, 102, 241, 0.1);
+	--soft-indigo: rgba(99, 102, 241, 0.2);
 	--violet: #8b5cf6;
-	--soft-violet: rgba(139, 92, 246, 0.1);
+	--soft-violet: rgba(139, 92, 246, 0.2);
 	--fuchsia: #d946ef;
-	--soft-fuchsia: rgba(217, 70, 239, 0.1);
+	--soft-fuchsia: rgba(217, 70, 239, 0.2);
 	--pink: #ec4899;
-	--soft-pink: rgba(236, 72, 153, 0.1);
+	--soft-pink: rgba(236, 72, 153, 0.2);
 	--rose: #f43f5e;
-	--soft-rose: rgba(244, 63, 94, 0.1);
+	--soft-rose: rgba(244, 63, 94, 0.2);
 	--blue-dark: #010615;
 	--soft-blue-dark: #0106151f;
 	--black: #171717;
@@ -52,11 +52,11 @@
 	--secondary: #71717a;
 	--dark: #111;
 	--light: #f8f9fa;
-	--soft-primary: rgba(59, 130, 246, 0.1);
-	--soft-danger: rgba(239, 68, 68, 0.1);
-	--soft-success: rgba(34, 197, 94, 0.1);
-	--soft-warning: rgba(234, 179, 8, 0.1);
-	--soft-info: rgba(6, 182, 212, 0.1);
+	--soft-primary: rgba(59, 130, 246, 0.2);
+	--soft-danger: rgba(239, 68, 68, 0.2);
+	--soft-success: rgba(34, 197, 94, 0.2);
+	--soft-warning: rgba(234, 179, 8, 0.2);
+	--soft-info: rgba(6, 182, 212, 0.2);
 	--soft-secondary: rgba(113, 113, 122, 0.1)
 	--sm-1: 0.25rem;
 	--sm-2: 0.5rem;
@@ -71,6 +71,7 @@
 
 .bg-primary {
 	background-color: var(--primary) !important;
+	color: white;
 }
 
 .bg-light {
@@ -79,26 +80,32 @@
 
 .bg-danger {
 	background-color: var(--danger) !important;
+	color: white;
 }
 
 .bg-success {
 	background-color: var(--success) !important;
+	color: white;
 }
 
 .bg-warning {
 	background-color: var(--warning) !important;
+	color: white;
 }
 
 .bg-info {
 	background-color: var(--info) !important;
+	color: white;
 }
 
 .bg-dark {
 	background-color: var(--dark) !important;
+	color: white;
 }
 
 .bg-secondary {
 	background-color: var(--secondary) !important;
+	color: white;
 }
 
 .bg-blue-gray {
@@ -220,6 +227,10 @@
 	color: white;
 }
 
+.soft-bg-blue-gray {
+	background-color: var(--soft-blue-gray) !important;
+}
+
 .soft-bg-cool-gray {
 	background-color: var(--soft-cool-gray) !important;
 }
@@ -304,27 +315,27 @@
 	background-color: var(--soft-blue-dark) !important;
 }
 
-.bg-soft-primary {
+.soft-bg-primary {
 	background-color: var(--soft-primary) !important;
 }
 
-.bg-soft-danger {
+.soft-bg-danger {
 	background-color: var(--soft-danger) !important;
 }
 
-.bg-soft-success {
+.soft-bg-success {
 	background-color: var(--soft-success) !important;
 }
 
-.bg-soft-warning {
+.soft-bg-warning {
 	background-color: var(--soft-warning) !important;
 }
 
-.bg-soft-info {
+.soft-bg-info {
 	background-color: var(--soft-info) !important;
 }
 
-.bg-soft-secondary {
+.soft-bg-secondary {
 	background-color: var(--soft-secondary) !important;
 }
 
